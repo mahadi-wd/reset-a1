@@ -334,7 +334,7 @@ nav button {
   text-align: left;
 }
 
-#current-target .card-container .card h4 {
+#current-target .card-container .card-title {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
@@ -344,7 +344,7 @@ nav button {
   text-align: left;
 }
 
-#current-target .card-container .card p {
+#current-target .card-container .card-subtitle {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 12px;
@@ -354,12 +354,88 @@ nav button {
   text-align: left;
 }
 
-#current-target .card-container .card a{
-    color: rgb(13, 19, 33);
+#current-target .card-container .card-link {
+  color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 14px;
   font-weight: 600;
   line-height: 18px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+#next-target {
+  width: 900px;
+  margin: 70px auto 0 auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#next-target .title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#next-target .description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 600px;
+  margin: 0px auto 50px auto;
+}
+
+#next-target .card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(6, 10, 18, 0.3);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+#next-target .card-container .content {
+  text-align: left;
+}
+
+#next-target .card-container .content h4 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#next-target .card-container .content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#next-target .card-container .content a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
