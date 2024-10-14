@@ -167,6 +167,7 @@ nav button {
   text-align: center;
   padding: 8px 14px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .reason-reverse {
@@ -225,6 +226,7 @@ nav button {
   text-align: center;
   padding: 8px 14px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 #inspiration {
