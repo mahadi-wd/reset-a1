@@ -439,3 +439,72 @@ nav button {
   text-align: left;
   text-decoration-line: underline;
 }
+
+#support {
+  width: 900px;
+  margin: 70px auto 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(assets/handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 20px;
+}
+
+#support .title {
+  color: white;
+  font-family: Azeret Mono;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#support .description {
+  color: white;
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 600px;
+  margin: 0px auto 50px auto;
+}
+
+#support .input-field {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  /* border: 1px solid rgba(13, 19, 33, 0.15); */
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 330px;
+  /* color: rgba(13, 19, 33, 0.4); */
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#support .sub-btn {
+  padding: 10px 15px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
